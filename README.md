@@ -139,3 +139,35 @@ we could even take this further but seperating accessesories into pins, totes an
 
 - added the database items using vuefire plugin and a couple of tutorials and stack overflow 
 ![](https://i.ibb.co/2sw2Vdt/json-file-to-site.png)
+we used visual studio live share to collaborate in a single page 
+![](https://i.ibb.co/kQ4kB4f/using-live-share-to-collab-instantly.png)
+
+### Sprint 4
+
+I was having trouble with firebase realtime set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore. 
+![](https://i.ibb.co/SKQLshn/firestorecollections.png)
+![](https://i.ibb.co/cvqVnrR/importjsoncodetofirestore.png)
+
+I left the realtime database code on the products page as we only need to read that data, and the CRUD firestore on the admin products. 
+
+I  used nested routes to render child components inside a parent component 
+
+![](https://i.ibb.co/pfFLSyn/nested-routes.png)
+
+### Sprint 5
+
+this [tutorial](https://www.positronx.io/vue-js-firebase-build-vue-crud-app-with-cloud-firestore/) for the firestore crud.
+
+and logging in with the admin account now shows an admin button, as i couldnt find a way of having only having the admin login page to access the admin section. I made a work around using the admin user UID adding it to the env file and then comparing it to the current user uid, if they matched an admin button will show.
+this however doesnt stop people from adding /admin to the url and will need further research into authentication and firebase rules.
+Their were ways to use firebase funtions, but i would have to pay for a firebase account upgrade. 
+
+In hind sight i have used a lot of repeating code to access all the different collections stored on the firebase firestore database, If I have time I will try to condense this code so it itsnt so repetative. 
+
+### Sprint 6
+
+- search
+ - pay for firebase to use functions and angola ? (then use functions for login as well>)
+- sort 
+- pwa 
+
