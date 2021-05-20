@@ -164,6 +164,8 @@ Their were ways to use firebase funtions, but i would have to pay for a firebase
 
 In hind sight i have used a lot of repeating code to access all the different collections stored on the firebase firestore database, If I have time I will try to condense this code so it itsnt so repetative. 
 
+for development and marking purposes the admin account is email: admin@admin.com password: admin1
+
 ### Sprint 6
 
 - search
