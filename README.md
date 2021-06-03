@@ -164,12 +164,19 @@ Their were ways to use firebase funtions, but i would have to pay for a firebase
 
 In hind sight i have used a lot of repeating code to access all the different collections stored on the firebase firestore database, If I have time I will try to condense this code so it itsnt so repetative. 
 
-for development and marking purposes the admin account is email: admin@admin.com password: admin1
-
 ### Sprint 6
 
 - search
  - pay for firebase to use functions and angola ? (then use functions for login as well>)
 - sort 
 - pwa 
+- <br/>
+I only did reasearch for searching in this sprint as i started a junior developer job, that also does ecommerce sites and helps companies with automating business task, using asp.net and asp.net core. 
 
+### Sprint 7
+Upgraded my firebase to a pay as you go account to use functions and angolia for full text search. <br/>
+next sprint i will change the admin login to use functions now that the firebase account is upgraded
+<br/>
+Added Algolia Search, uploaded our json file to the index, and used widgets to create a search page with vue-instant- search
+[Docs](https://www.algolia.com/doc/) [Instant Search with widgets](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/vue/) 
+![algolia-settings](https://i.ibb.co/dGj91Ft/algolia.png)
